@@ -1,5 +1,5 @@
 FROM golang:1.13.15
-
+CMD echo "Hello go-sample! This is my first Docker image."
 RUN go get -v -u \
     github.com/mdempsky/gocode \
     github.com/uudashr/gopkgs/v2/cmd/gopkgs \
